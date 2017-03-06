@@ -13,8 +13,7 @@ The following **required** functionality is completed:
 2\. Encrypted Message 1
   * [√]  Required: Decrypt the government message   "I heard about your current situation. Do you know who hacked APEX? -- The Chairman"
   * [√]  Required: Encrypt a response and include in this README
-  PL3XSkrjTXc5v26iF4HOjATj48BIJolX6Eg4A5b1xsktCo7rU+kPClGEoNvNDs6ayHYCFJuadAgJCxfOCPgLZg==
-
+         nRtGatDNzPAHPAxYNmWbVQbGvJp1OZWRPrTSabSkjrRCoRm5AKSGX3B0wyRIkVMyQl96mNTXFNJwBBZDRxANiQ==
 3\. Generate Public-Private Keys
   * [√]  Required: Repair the key generator code
   * [√]  Required: Generate keys for "johnsteed" and add him to the Agent Directory
