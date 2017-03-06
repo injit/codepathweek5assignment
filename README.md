@@ -8,33 +8,33 @@ Time spent: **X** hours spent in total
 The following **required** functionality is completed:
 
 1\. Symmetric Encrypt/Decrypt
-  * [ ]  Required: Repair the symmetric encrypt and decrypt code
+  * [√]  Required: Repair the symmetric encrypt and decrypt code
 
 2\. Encrypted Message 1
-  * [ ]  Required: Decrypt the government message
-  * [ ]  Required: Encrypt a response and include in this README
+  * [√]  Required: Decrypt the government message
+  * [√]  Required: Encrypt a response and include in this README
 
 3\. Generate Public-Private Keys
-  * [ ]  Required: Repair the key generator code
-  * [ ]  Required: Generate keys for "johnsteed" and add him to the Agent Directory
+  * [√]  Required: Repair the key generator code
+  * [√]  Required: Generate keys for "johnsteed" and add him to the Agent Directory
 
 4\. Asymmetric Encrypt/Decrypt
-  * [ ]  Required: Repair the asymmetric encrypt and decrypt code
+  * [√]  Required: Repair the asymmetric encrypt and decrypt code
 
 5\. Create/Verify Signature
-  * [ ]  Required: Repair the create and verify signature code
+  * [√]  Required: Repair the create and verify signature code
   
 6\. Encrypted Message 2
-  * [ ]  Required: Decrypt the message
-  * [ ]  Required: Verify the message
-  * [ ]  Required: Include a response message in this README
+  * [√]  Required: Decrypt the message
+  * [√]  Required: Verify the message
+  * [√]  Required: Include a response message in this README
 
 7\. Agent Messages
-  * [ ]  Required: Repair the dropbox code
-  * [ ]  Required: Repair the messages area
-  * [ ]  Required: Display encrypted messages for all agents
-  * [ ]  Required: Messages indicate whether the message signature is valid
-  * [ ]  Required: Your messages are automatically decrypted
+  * [√]  Required: Repair the dropbox code
+  * [√]  Required: Repair the messages area
+  * [√]  Required: Display encrypted messages for all agents
+  * [√]  Required: Messages indicate whether the message signature is valid
+  * [√]  Required: Your messages are automatically decrypted
 
 8\. Identify the Double Agent
   * [ ]  Required: Decrypt as many email messages as possible
@@ -60,7 +60,7 @@ The following objectives are **optional**:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/npTabNl.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -70,7 +70,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2017] [Indrajit Gurung]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
