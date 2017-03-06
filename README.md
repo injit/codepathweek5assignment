@@ -11,8 +11,9 @@ The following **required** functionality is completed:
   * [√]  Required: Repair the symmetric encrypt and decrypt code
 
 2\. Encrypted Message 1
-  * [√]  Required: Decrypt the government message
+  * [√]  Required: Decrypt the government message   "I heard about your current situation. Do you know who hacked APEX? -- The Chairman"
   * [√]  Required: Encrypt a response and include in this README
+  PL3XSkrjTXc5v26iF4HOjATj48BIJolX6Eg4A5b1xsktCo7rU+kPClGEoNvNDs6ayHYCFJuadAgJCxfOCPgLZg==
 
 3\. Generate Public-Private Keys
   * [√]  Required: Repair the key generator code
@@ -28,6 +29,21 @@ The following **required** functionality is completed:
   * [√]  Required: Decrypt the message
   * [√]  Required: Verify the message
   * [√]  Required: Include a response message in this README
+  
+message TRvyX94wrVDAG211Ps5Blhny0GxAgx43n/8FRkbs9X0FBHFTklezghQFEfjUKM2lFJwzxQjASPJiGa5jEB6v94I09AOYE5R67b9/d65f7CCd7NY9N06rtULA9xjaig3ERMFd9dUxqOzvB27We8vvlR65b9fvcYMDaP4etDK9ND+qadH/IcmB5I4W+CJbNEeJStwtm6ZffUOhnUpJu7bDnny/cXHokPhugyQGAFYn6Kuogg6waYGrixin7Ig+n9w211F8XWcURxUHIeGnOvd4vC8pwPtSa2h28qaVwR1HT3Ylok3mWPVnuHYzfY35rwod6NHu/MRKeXRD9DSS092CzQ==
+  
+signature  oqzeJv6bCa2w7mxFIlhjrQ77tX8oInByyKr4r1rtcDx9jUyr09aK3Hs5oBoJpzmQCsdzxOWIr53zMQUYTztRCMwtVUjEo69X+dIJ3GuDG6ncKiG/KRjxPDAsNPmyJfG/FeMCL0tsMxJ2GpLht5Qi3cgUJQpUgC3HoraBUnZbUedMiklfrwClOw+54yhY7i1DFZsZGSfiPpg41A6HnaLP/vl9hRBY4SMZf0WCtmFbijXUOpfCybNFE2GQRbMo3gr8RyvVDg4u3V1ZHQFp1vWoAZT/g8T76avAsWXNz3MxKMNPAapZkVuS9ryrD/YkEWp5uMPu7376hz8RRwOfTEzQEA==
+
+public key
+-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn84Tpm+SLikK/40JeiXK
+Q1phFDtCXdIw284yfUEnTyTF7jCBmS0xUiFmaGPONBOurJfuzQP7VB9qzURCbVbF
++hxGpKR5zAxtlnjgdMpPtSj8Wt3f4FAyW9e1Uw0sjm/d2B8ULGSm5Fa+GwyhAbeK
+V0ZqImltLF1nKiey0/0B44rDm9wRVA1WDc4grc7r+XseaPhdVSXhO4WqJQHNNKig
+DgrYiKFL15XkRMS5NMUCFfO5pYcYi/SN57agZwBQKSUCtyLpPdwj1tMFwJi3PNIl
+kk+BFCK+Yhm8h1rKbNJuL7j0PGvPQG8fOtXnBcypsX/qvBY5R5GR2gzIndRYWcWk
+xwIDAQAB
+-----END PUBLIC KEY-----
 
 7\. Agent Messages
   * [√]  Required: Repair the dropbox code
