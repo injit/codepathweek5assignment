@@ -11,6 +11,10 @@
   // No loop, only one result
   $agent = db_fetch_assoc($agent_result);
 
+  // echo "<pre>";
+  // echo print_r($_GET);
+  // echo "</pre>";
+
 ?>
 
 <!doctype html>

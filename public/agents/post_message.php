@@ -8,10 +8,23 @@
       redirect_to('index.php');
     }
 
+  
+// echo "<pre>";
+// echo print_r($_GET);
+// echo "</pre>";
     // I'm sorry, did you need this code? ;)
     // Guess you'll just have to re-write it.
     // With love, Dark Shadow
-    
+    $id = $_GET['id'];
+    $agent_result = find_agent_by_id($id);
+    $agent = db_fetch_assoc($agent_result);
+
+
+    $plain_text = isset($_POST['plain_text']) ? $_POST['plain_text'] : nil;
+    $encrypted_text = pkey_encrypt($plain_text, $agent['public_key']);
+    $signature = create_signature($plain_text, $agent['private_key']);
+    $sender['id'] = $current_user['id'];
+ 
     $message = [
       'sender_id' => $sender['id'],
       'recipient_id' => $agent['id'],

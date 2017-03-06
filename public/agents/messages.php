@@ -10,6 +10,8 @@
   $agent_result = find_agent_by_id($id);
   $agent = db_fetch_assoc($agent_result);
 
+
+
   $message_result = find_messages_for($agent['id']);
 ?>
 
@@ -47,10 +49,17 @@
 
 
           $created_at = strtotime($message['created_at']);
-          $sender = $message['sender_id'];
+          //$sender = $message['sender_id'];
+
+          $sender_result = find_agent_by_id($message['sender_id']);
+          $sender = db_fetch_assoc($sender_result);
           //echo $sender;
-          $message_text= $message['cipher_text'];
+          $message_text = $message['cipher_text'];
+          $signature = $message['signature'];
+          //$validity_text = verify_signature(pkey_decrypt($message['cipher_text'], $agent['private_key']), $signature, $agent['public_key']);
           $validity_text = "valid";
+
+//echo $agent['private_key']; echo "<br>";
           // Oooops.
           // My finger accidentally hit the delete-key.
           // Sorry, APEX!!!
