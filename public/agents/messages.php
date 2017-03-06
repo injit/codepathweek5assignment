@@ -57,7 +57,7 @@
           $message_text = $message['cipher_text'];
           $signature = $message['signature'];
           //$validity_text = verify_signature(pkey_decrypt($message['cipher_text'], $agent['private_key']), $signature, $agent['public_key']);
-          $validity_text = "valid";
+          $validity_text = verify_signature($message_text, $signature, $sender['public_key'])? 'valid':'invalid';
 
 //echo $agent['private_key']; echo "<br>";
           // Oooops.
