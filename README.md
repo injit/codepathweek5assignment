@@ -53,9 +53,13 @@ xwIDAQAB
   * [√]  Required: Your messages are automatically decrypted
 
 8\. Identify the Double Agent
-  * [ ]  Required: Decrypt as many email messages as possible
-  * [ ]  Required: Identify the double agent: ____________________
-
+  * [√]  Required: Decrypt as many email messages as possible
+  * [√]  Required: Identify the double agent: _Natasha__
+  
+  email_01 The SQL injection we discussed is in place. Just search for an agent. (invalid)
+  email_03 Today I was able to sneak several XSS vulnerabilities onto one of the encrypt/decrypt pages. (valid)
+  email_05 Let me know before you go inside. I'll create a distraction. - Austin    (invalid)
+  email_06 Let me know before you go inside. I'll create a distraction. - Natasha   (valid)
 The following objectives are **optional**:
 
 * Bonus Objective 1\.
